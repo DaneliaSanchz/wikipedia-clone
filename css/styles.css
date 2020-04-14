@@ -1,0 +1,265 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    margin-top: 15px;
+    margin-bottom: 0;
+    width: 15%;
+    height: 15%;
+}
+
+main, footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-logo {
+    margin: 0 auto;
+    position: relative;
+}
+
+.english {
+    position: absolute;
+    top: 0px;
+    right: 150px;
+}
+
+.spanish {
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.chinese {
+    position: absolute;
+    top: 65px;
+    right: 220px;
+}
+
+.roussian {
+    position: absolute;
+    top: 65px;
+    left: 220px;
+}
+
+.german {
+    position: absolute;
+    top: 130px;
+    right: 230px;
+}
+
+.french {
+    position: absolute;
+    top: 130px;
+    left: 230px;
+}
+
+.italian {
+    position: absolute;
+    top: 195px;
+    right: 220px;
+}
+
+.japanese {
+    position: absolute;
+    top: 195px;
+    left: 220px;
+}
+
+.portuguese {
+    position: absolute;
+    top: 260px;
+    right: 160px;
+}
+
+.polish {
+    position: absolute;
+    top: 260px;
+    left: 160px;
+}
+
+.main-logo img {
+    margin-top: 65px;
+    width: 200px;
+    height: 180px;
+}
+
+main .main-languages .language {
+    width: 125px;
+    height: 45px;
+    text-align: center;
+    display: block;
+}
+
+main .main-languages {
+    display: flex;
+    height: 320px;
+}
+
+main .main-languages .language a {
+    color: #36c;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+main .main-languages .language a span {
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+}
+
+main .main-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-search input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    border-right: none;
+    line-height: 1.5;
+}
+
+main .main-search select {
+    width: 50px;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: gray;
+    margin-left: -51px;
+    border: none;
+}
+
+main .main-search button {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4f/Search-button.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 45px;
+    border: none;
+}
+
+main .main-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+main .main-select select {
+    background-color: #f8f9fa;
+    width: 250px;
+    height: 30px;
+    color: #36c;
+    border: 1px solid #a2a9b1;
+    border-radius: 3px;
+    text-align-last: center;
+}
+
+main .main-wikipedia-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px;
+}
+
+.wikipedia-about {
+    display: grid;
+    grid-template-rows:  1fr 2fr;
+    font-size: 13px;
+}
+
+.wikimedia-about img, .download-info img{
+    width: 45px;
+    height: 45px;
+    padding-right: 10px;
+}
+
+.wikimedia-about {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.download {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.download-info {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.download-app {
+    display: flex;
+    justify-content: center;
+}
+.download-app img{
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.main-projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-projects .project-item a {
+    text-decoration: none;
+    color: #36c;
+    padding-left: 10px;
+}
+
+.main-projects .project-item span {
+    color: gray;
+}
+
+.main-projects .project-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.main-projects .project-item a span {
+    display: block;
+}
+
+.project-item img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer a {
+    color: #36c;
+    text-decoration: none; 
+    cursor: pointer;
+    margin: 5px;
+}
