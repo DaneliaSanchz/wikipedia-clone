@@ -31,6 +31,7 @@ main, footer {
 .main-logo {
     margin: 0 auto;
     position: relative;
+    padding: 0;
 }
 
 .english {
