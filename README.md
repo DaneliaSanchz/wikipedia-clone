@@ -4,6 +4,10 @@ This project is a [Wikipedia](https://www.wikipedia.org/)'s clone which has diff
 
 ## 💻 Screen
 
+## Live Demo
+
+https://daneliasanchz.github.io/wikipedia-clone/
+
 ## 📜 License
 
 Wikipedia Clone is licensed under [MIT License](https://github.com/DaneliaSanchz/wikipedia-clone/blob/master/LICENSE).
