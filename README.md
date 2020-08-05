@@ -4,7 +4,9 @@ This project is a [Wikipedia](https://www.wikipedia.org/)'s clone which has diff
 
 ## 💻 Screen
 
-## Live Demo
+![Wikipedia Image](https://github.com/DaneliaSanchz/wikipedia-clone/blob/master/main.png)
+
+## 🖥 Live Demo
 
 https://daneliasanchz.github.io/wikipedia-clone/
 
@@ -15,6 +17,5 @@ Wikipedia Clone is licensed under [MIT License](https://github.com/DaneliaSanchz
 ## 🤝 How to contribute
 
 If you want to improve something, you can collaborate in this repository. 
-
 
 Any feedback is welcome.
